@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto:wght@300;400;500;700;900&family=Rubik&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/fa6.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <script src="https://kit.fontawesome.com/39d9b5c200.js" crossorigin="anonymous"></script> --> -->
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./img/logo.svg" alt="Логотип">
+        </div>
+        <nav class="header__nav">
+            <i class="fa-solid fa-bars fa-2xl" style="color: #3AAAA7;"></i>
+            <nav class="nav">
+            <ul class="menu">
+                <li>
+                    <a class="menu__link" href="#">Велодорожки</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="#">Маршруты</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="#">События</a>
+                </li>
+                <li>
+                    <a class="menu__link_button" href="#">Войти</a>
+                </li>
+            </ul>
+            <i class="fa-solid fa-xmark fa-2xl" style="color: #3AAAA7;"></i> 
+        </nav>
+    </header>
+    <main class="center">
+        <section class="top">
+            <div class="top-img">
+                <img src="./img/img-man.png" alt="Логотип">
+            </div>
+            <div class="top-content">
+                <h1 class="top-content__heading">Велодорожки 
+                    <br>России
+                </h1>
+                <p class="top-content__subtitle">Сервис №1 для путешествий по городским велодорожкам и передвижению по городу с помощью GPS-маршрутов</p>
+                <ul class="top-content__button">
+                    <li>
+                        <a class="button__choice" href="#">
+                            <p>Выбрать город</p>
+                            <i class="fa-solid fa-caret-down fa-button-choice" style="color: #3AAAA7;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="button__open" href="#">Открыть карту</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="icons">
+            <div class="icon">
+                <img class="icon__img" src="./img/icon-map.svg" alt="Иконка карта">
+                <h3 class="icon__heading">Карты велодорожек</h3>
+                <p class="icon__text">открывай для себя комфорт велодорожек и городскую инфраструктуру</p>
+            </div>
+            <div class="icons__line"></div>
+            <div class="icon">
+                <img class="icon__img" src="./img/icon-repair.svg" alt="Иконка ремонт">
+                <h3 class="icon__heading">Ремонт и прокат</h3>
+                <p class="icon__text">находи ближайшие пункты в твоем городе</p>
+            </div>
+            <div class="icons__line"></div>
+            <div class="icon">
+                <img class="icon__img" src="./img/icon-race.svg" alt="Иконка марафон">
+                <h3 class="icon__heading">Марафоны</h3>
+                <p class="icon__text">будь в курсе событий для велосипедистов  и принимай участие </p>
+            </div>
+        </section>
+        <section class="route">
+            <div class="route__info">
+                <img src="./img/img-map.png" alt="Маршрут">
+                <div class="route-cards">
+                    <div class="route-card">
+                        <p class="route-card__number">5</p>
+                        <p class="route-card__text">km</p>
+                    </div>
+                    <div class="route-card">
+                        <p class="route-card__number">40</p>
+                        <p class="route-card__text">min</p>
+                    </div>
+                    <div class="route-card">
+                        <p class="route-card__number">2</p>
+                        <p class="route-card__text">пункта</p>
+                    </div>
+                </div>
+            </div>
+            <div class="route__content">
+                <h2 class="route-content__heading">Создайте свой GPS-маршрут</h2>
+                <p class="route-content__text">Просто выберите пункты отправки и завершения поездки</p>
+                <p class="route-content__text">Дополнительно Вы можете указать веломеста (прокат, ремонт, велопарковки, место отдуха) в заданной степени дальностию</p>
+                <form class="route-content__form" action="#" method="get">
+                    <input class="route-content__input" type="text" placeholder="Начало маршрута">
+                    <input class="route-content__input" type="text" placeholder="Окончание маршрута">
+                    <input class="route-content__input route-content__input_point" type="text" placeholder="Отметить веломесто">
+                    <input class="route-content__input route-content__input_distance" type="number" placeholder="Радиус, км">
+                    <button class="route-content__button"  type="submit">Маршрут</button>
+                </form>
+            </div>
+        </section>
+        <section class="ref">
+            <h2 class="ref__heading">Участвуй в событиях для велосипедистов по всей стране!</h2>
+            <div class="ref__article">
+                <article class="ref-article">
+                    <h3 class="ref-article__heading">Веломарафон "Велопоездка по России"</h3>
+                    <data class="ref-article__data">05/07/2023</data>
+                    <p class="ref-article__text">Крупное событие по велосипедному спорту, которое охватывает несколько городов и регионов России. Участники смогут пройти все этапы марафона или выбрать конкретные города и маршруты.</p>
+                    <a href="#" class="ref-article__arrow">Подробнее о событии</a>
+                </article>
+                <article class="ref-article">
+                    <h3 class="ref-article__heading">"Велопарад"</h3>
+                    <data class="ref-article__data">09/05/2023</data>
+                    <p class="ref-article__text">Масштабное мероприятие, которое проводится в большинстве крупных городов России. Оно собирает в себя тысячи велосипедистов, которые по площадям и центральным улицам города проезжают на велосипедах, призывая к охране окружающей среды и здоровому образу жизни.</p>
+                    <a href="#" class="ref-article__arrow">Подробнее о событии</a>
+                </article>
+                <article class="ref-article">
+                    <h3 class="ref-article__heading">"Гонки на выносливость"</h3>
+                    <data class="ref-article__data">15/08/2023</data>
+                    <p class="ref-article__text">Соревнования по дальним дистанциям на велосипедах. Они обычно проводятся на бездорожье за пределами городов и представляют собой настоящий экстремальный вызов для участников.</p>
+                    <a href="#" class="ref-article__arrow">Подробнее о событии</a>
+                </article>
+                <article class="ref-article">
+                    <h3 class="ref-article__heading">"Велоконкурсы"</h3>
+                    <data class="ref-article__data">10/09/2023</data>
+                    <p class="ref-article__text">Забавные соревнования на велосипедах, которые могут проводится как на перронах, так и в парках городов. Они включают в себя такие игры, как кольцевые бега, битвы на велосипедах и скоростные соревнования.</p>
+                    <a href="#" class="ref-article__arrow">Подробнее о событии</a>
+                </article>
+            </div>
+            <a class="ref__button" href="#">Больше событий</a>
+        </section>
+        <section class="guest">
+            <div class="subscribe">
+                <img class="subscribe__img" src="./img/img-girl.png" alt="Подписка">
+                <h2 class="subscribe__heading">Подпишись на новости в два шага!</h2>
+                <form class="subscribe__form" action="#" method="get">
+                    <input class="subscribe__input" type="email" placeholder="mail@gmail.com">
+                    <button class="subscribe__button" type="submit">Подписаться</button>
+                </form>
+            </div>
+            <div class="feedback">
+                <h2 class="feedback__heading">Обратная связь</h2>
+                <form class="feedback__form" action="#" method="get">
+                    <div class="feedback-input">
+                        <input class="feedback-input__placeholder" type="text" placeholder="Имя">
+                        <input class="feedback-input__placeholder" type="email" placeholder="mail@gmail.com"> 
+                    </div>
+                    <textarea class="feedback__textarea"  name="feedback__textarea" cols="30" rows="10">Введите Ваши предложения по улучшению сервиса</textarea>
+                    <button class="feedback__button" type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <p class="footer-info__text">2023 ©  <strong>velotrack.com</strong></p>
+            <p class="footer-info__text">Все права защищены</p>
+        </div>
+        <div class="footer-social">
+            <i class="fa-brands fa-vk footer-social__fa"></i>
+            <i class="fa-brands fa-odnoklassniki footer-social__fa"></i>
+            <i class="fa-brands fa-telegram footer-social__fa"></i>
+        </div>
+    </footer>
+</body>
+</html>
